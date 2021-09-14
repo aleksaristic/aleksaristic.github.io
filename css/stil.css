@@ -1,0 +1,438 @@
+header{
+    background-color: rgb(36, 29, 29);
+}
+
+header .semi-title {
+    text-align:left;
+    padding-top:29px;
+    padding-bottom:24px;
+}
+header .semi-title a{
+    color: rgb(250, 241, 241);
+    text-decoration: none;
+    font-size:36px;
+}
+
+header .main-list a{
+    color:grey;
+    font-size:17px;
+    text-decoration:none;
+    list-style-type: none;
+    transition: 1s;
+}
+
+header .main-list a:hover{
+    text-decoration: underline yellow;
+    transition: 1s;
+}
+
+header .main-list li{
+    text-align: center;
+    padding-top:45px;
+    padding-bottom:33px;
+    display: inline-block;
+    margin-left: 6%;
+}
+
+header .topic-btn{
+    text-align: right;
+    padding-top:41px;
+    padding-bottom:30px;
+}
+
+header .topic-btn a{
+    padding:10px;
+    font-size:25px;
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(36, 29, 29);
+    border:1px;
+    border-radius:20px;
+    background-color: rgb(236, 236, 13);
+    transition: 0.5s;
+}
+
+header .topic-btn a:hover{
+    transition: 0.5s;
+    color:rgb(236, 236, 13);
+    border:1px solid rgb(236, 236, 13);
+    background-color: transparent;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    max-height:800px;
+}
+nav img{
+    padding-top:20px;
+    padding-bottom:20px;
+    height: 680px;
+    width: 450px;
+    float:left;
+}
+
+nav .message{
+    text-align:left;
+    font-size:40px;
+    padding-top:270px;
+    padding-bottom:370px;
+    margin-bottom: 40px;
+    display: block;
+}
+
+nav .message .msg1{
+    margin-bottom: 30px;
+}
+
+nav .message .msg1 a{
+    text-decoration: none;
+    border: 1px;
+    background-color: black;
+    color:rgb(250, 241, 241);
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+nav .message .msg1 a:hover{
+    border: 1px solid black;
+    background-color: transparent;
+    color:black;
+    transition: 0.6s;
+}
+
+nav .message .msg2 a{
+    text-decoration: none;
+    border: 1px;
+    background-color: rgb(236, 236, 13);
+    color:black;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+nav .message .msg2 a:hover{
+    border: 1px solid rgb(236, 236, 13);
+    background-color: transparent;
+    color:black;
+    transition: 0.6s;
+}
+
+article img{
+    border-radius: 30px;
+    float: left;
+    margin-left:20px;
+}
+
+article{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+article h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom:35px;
+}
+
+article pre{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: grey;
+    line-height: 37px;
+}
+
+.info-part .table1 table{
+    margin-top:30px;
+    margin-bottom:30px;
+    width: 100%;
+    border:none;
+    background-color: transparent;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info-part .table1 td,th{
+    border:none;
+    background-color: transparent;
+}
+
+.info-part .table1 th{
+    border:none;
+    background-color: transparent;
+}
+
+article .info-part{
+    padding-top:20px;
+    padding-bottom:170px;
+}
+
+.info-section{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.info-part .info-section .moving-section{
+    padding:10px;
+    background: #ADCEC8;
+background: -moz-linear-gradient(-45deg, #ADCEC8 0%, #7FA499 46%, #C5B2C2 100%);
+background: -webkit-linear-gradient(-45deg, #ADCEC8 0%, #7FA499 46%, #C5B2C2 100%);
+background: linear-gradient(135deg, #ADCEC8 0%, #7FA499 46%, #C5B2C2 100%);
+    height: 450px;
+    -webkit-box-shadow: 2px -2px 16px 0px #000000; 
+box-shadow: 2px -2px 16px 0px #000000;
+    transition: 0.5s;
+    margin-top:20px;
+}
+
+.info-part .info-section .moving-section pre,h2,hr{
+    margin-left:20px;
+    margin-bottom:7px;
+}
+
+.info-part .info-section .moving-section hr{
+    display: block;
+     margin-top: 8px;
+     margin-left:20px;
+    margin-bottom: 8px;
+     margin-right: 0px;
+     border-style: inset;
+    border-width: 2px;
+}
+
+.info-part .info-section .moving-section:hover{
+    background: #938996;
+background: -moz-linear-gradient(-45deg, #938996 0%, #9584B7 50%, #BEAFDB 100%);
+background: -webkit-linear-gradient(-45deg, #938996 0%, #9584B7 50%, #BEAFDB 100%);
+background: linear-gradient(135deg, #938996 0%, #9584B7 50%, #BEAFDB 100%);
+    -webkit-box-shadow: 1px -1px 10px 0px #000000; 
+box-shadow: 1px -2px 10px 0px #000000;
+    transition: 0.5s;
+    margin-top:13px;
+}
+
+.people-say{
+    box-sizing: border-box;
+    padding-top: 115px;
+    padding-bottom:115px;
+    background-color: rgb(235, 231, 231);
+}
+
+.people-say .title-people-say{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 40px;
+}
+
+.people-say .title-people-say{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 40px;
+}
+
+.people-say .slideshow-container p,h3{
+    margin-left:10px;
+}
+
+/* Slideshow container */
+.people-say .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.people-say .mySlides {
+    display:inline-block;
+}
+
+.people-say .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.people-say .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+.people-say .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+  }
+
+  /* Next & previous buttons */
+.people-say .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+.people-say .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+.people-say .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.people-say img{
+    border-radius: 100%;
+}
+
+.people-say p{
+    font-size: 17px;
+}
+
+.people-say .job-text{
+    font-weight:600;
+}
+
+.people-say a{
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+}
+
+.people-say a:hover{
+    color:rgb(131, 128, 128);
+    transition: 0.7s;
+}
+
+.last-part {
+    padding-top: 80px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.last-part .table2 table, th, td{
+    background-color: rgb(235, 231, 231);
+    border: 1px solid rgb(187, 183, 183);
+}
+
+.last-part .table2 th{
+    padding-left:50px;
+    font-size: 20px;
+    height: 80px;
+    font-weight: 700;
+}
+
+.last-part a{
+    text-decoration: none;
+    color:black;
+    transition: 0.3s;
+}
+
+.last-part a:hover{
+    color:blue;
+    transition: 0.3s;
+}
+
+.last-part .last-row-for-enter-text textarea{
+    resize: none;
+    padding-top:30px;
+    padding-left:50px;
+    width: 100%;
+    height: 100%;
+    color:rgb(131, 128, 128);
+    text-align: left;
+}
+
+.last-part .message-below{
+    margin-left:53px;
+    padding-top:20px;
+    padding-bottom:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+.fa:hover {
+      opacity:0.6;
+      color:rgb(19, 10, 10);
+  }
+
+.last-part label{
+    margin-left:30px;
+}
+
+.last-part label,input,hr{
+    margin-left:30px;
+}
+
+.last-part .more-info{
+    margin-left:30px;
+    width: 95%;
+    height: 100%;
+}
+
+.last-part .end-btn{
+    border: 1px solid rgb(236, 236, 13);
+    background-color: rgb(236, 236, 13);
+    border-radius: 20px;
+    padding: 10px;
+    margin-left:30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.4s;
+    margin-bottom:50px;
+}
+
+.last-part .end-btn:hover{
+    border: 2px solid black;
+    transition: 0.4s;
+}
+
+.last-part .copyright-info h2,p{
+    margin-left:50px;
+}
+
+.last-part .copyright-info h2{
+    margin-bottom:20px;
+}
+
+.last-part .copyright-info p{
+    color:rgb(168, 164, 164);
+}
+
+.last-part .copyright-info b{
+    color:black;
+    
+}
+
